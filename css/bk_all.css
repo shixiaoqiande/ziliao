@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    height: 100%;
+}
+.bgbox{
+    width: 100%;
+    height: 100%;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1537279274916&di=22e125826e1e13f82141b5d8cf97d156&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F0%2F54854abfa8c4b.jpg);
+    background-size: 100% 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.maxbox{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    z-index: 1;
+}
+.goback{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+.goback p{
+    width: 40px;
+    height: 30px;
+    background: url(../img/goback.png);
+    background-size: 100% 100%;
+}
+.header{
+    width: 98%;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: rgba(2,34,55,0.9);
+    border-top: 2px solid #D56464;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    color: #fff;
+}
+.h_name{
+    font-size: 86px;
+    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+}
+.h_boke{
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.h_word{
+    font-size: 30px;
+    font-weight: normal;
+}
+.h_zhuce{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.h_z_z,.h_z_d{
+    display: flex;
+    
+}
+.minbox{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /*background: rgba(255,255,255,0.9);*/
+}
+.m_tab{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.m_tab li{
+    width: 155px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 40px;
+    color: #333;
+}
+.m_tab a{
+    color: #022237;
+}
+.m_tab li:hover{
+    color: #fff;
+    background: #022237;
+}
+@media screen and (max-width: 1200px) {
+    body{
+        background: red;
+    }
+}
+@media screen and (max-width: 992px) {
+    body{
+        background: orange;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        background: yellow;
+    }
+}
+@media screen and (max-width: 576px) {
+    body{
+        background: green;
+    }
+}
